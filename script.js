@@ -36,6 +36,7 @@ document.querySelector('.check').addEventListener('click', function () {
   }
 });
 
+// reset game
 document.querySelector('.again').addEventListener('click', function () {
   score = 20;
   randNum = Math.trunc(Math.random() * 20 + 1);
